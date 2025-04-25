@@ -15,9 +15,9 @@ logger.add(lambda msg: print(msg), level="INFO",
            format="<green>{time:YYYY-MM-DD HH:mm:ss}</green> | <level>{level: <8}</level> | <cyan>{name}</cyan>:<cyan>{function}</cyan>:<cyan>{line}</cyan> - <level>{message}</level>")
 
 # Токены API (в реальном проекте следует использовать переменные окружения)
-TELEGRAM_TOKEN = "7617140226:AAHxsSC3rlhMUPn7tNRDZltoK1vy4V35N8k"
-OPENAI_API_KEY = "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"
-ADMIN_ID = "5178922969"  # ID админа для отправки отчетов
+TELEGRAM_TOKEN = "твой токен"
+OPENAI_API_KEY = "твой токен"
+ADMIN_ID = "твой ID"  # ID админа для отправки отчетов
 
 # Инициализация OpenAI и Telegram бота
 bot = telebot.TeleBot(TELEGRAM_TOKEN)
